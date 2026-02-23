@@ -301,6 +301,7 @@ OralOptix-AI-Bitewing-Quality-Assessment
 
 ---
 
+
 ## Interface Walkthrough
 
 This section illustrates the OralOptix prototype interface following the same sequence used during the radiograph analysis workflow.
@@ -308,8 +309,6 @@ This section illustrates the OralOptix prototype interface following the same se
 ---
 
 ### 1. User Authentication — Login
-
-Users begin by accessing the system through the secure login interface.
 
 <p align="center">
   <img src="assets/auth-login-page.png" alt="Login Interface" width="85%">
@@ -319,8 +318,6 @@ Users begin by accessing the system through the secure login interface.
 
 ### 2. User Registration — Sign Up
 
-New users can create an account through the registration page.
-
 <p align="center">
   <img src="assets/auth-signup-page.png" alt="Signup Interface" width="85%">
 </p>
@@ -329,60 +326,52 @@ New users can create an account through the registration page.
 
 ### 3. Radiograph Upload
 
-The analysis workflow begins by uploading the intra-oral radiograph image.
+<table>
+<tr>
+<td width="50%" align="center">
 
-<p align="center">
-  <img src="workflow-step-upload-complete.png" alt="Radiograph Upload Step" width="90%">
-</p>
+<img src="assets/workflow-step-patient-selection.png" alt="Upload Step" width="100%">
+
+</td>
+
+<td width="50%" align="center">
+
+<img src="assets/workflow-step-upload-complete.png" alt="Upload Step Alternate" width="100%">
+
+</td>
+</tr>
+</table>
 
 ---
 
 ### 4. Patient Selection
 
-Users select the patient record associated with the radiograph.
-
 <p align="center">
-  <img src="assets/workflow-step-patient-selection.png" alt="Patient Selection Step" width="90%">
+  <img src="assets/ui-new-patient-modal.png" alt="Add Patient Modal" width="85%">
 </p>
 
 ---
 
-### 5. Add New Patient
-
-If the patient does not already exist in the system, a new record can be created.
+### 5. Technical Imaging Settings
 
 <p align="center">
-  <img src="assets/ui-new-patient-modal.png" alt="Add New Patient Modal" width="90%">
+  <img src="assets/workflow-step-technical-settings.png" alt="Technical Settings" width="85%">
 </p>
 
 ---
 
-### 6. Technical Imaging Settings
-
-Technical parameters related to the radiograph acquisition are entered before analysis.
+### 6. AI Analysis Dashboard
 
 <p align="center">
-  <img src="assets/workflow-step-technical-settings.png" alt="Technical Settings Step" width="90%">
+  <img src="assets/dash.png" alt="AI Dashboard" width="85%">
 </p>
 
 ---
 
-### 7. AI Analysis Dashboard
-
-After submitting the information, the system processes the radiograph and displays AI-generated analysis results.
+### 7. Generated Report
 
 <p align="center">
-  <img src="dash.png" alt="AI Analysis Dashboard" width="90%">
-</p>
-
----
-
-### 8. Generated Report
-
-Finally, the system generates a structured report summarizing the radiograph quality assessment.
-
-<p align="center">
-  <img src="assets/report-pdf-preview.png" alt="Generated PDF Report" width="90%">
+  <img src="assets/report-pdf-preview.png" alt="Generated Report" width="85%">
 </p>
 
 ---
