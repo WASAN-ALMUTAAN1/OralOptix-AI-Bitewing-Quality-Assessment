@@ -34,11 +34,6 @@ The project combines:
 - AI-generated radiograph quality reports
 - A clean clinical-style report output (PDF-ready format)
 
-This repository is organized to present the project professionally for:
-- Academic portfolio showcase
-- Research/project documentation
-- GitHub presentation and demonstration
-- Future extension into production/research pipelines
 
 ---
 
