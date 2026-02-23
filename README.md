@@ -7,7 +7,6 @@ Professional GitHub README for Graduation / Research Project
   <img src="assets/looog.png" alt="OralOptix Banner" width="100%" />
 </p>
 
-<h1 align="center">OralOptix</h1>
 
 <p align="center">
   <b>Intelligent Assessment of Intra-Oral Radiograph Quality</b><br/>
