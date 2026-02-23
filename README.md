@@ -299,7 +299,91 @@ OralOptix-AI-Bitewing-Quality-Assessment
 <img src="assets/poster-oraloptix.png" width="70%">
 </p>
 
-## Interface Walkthrough (Step-by-Step)
+---
 
-This section presents the prototype interface in the same order a user follows while using the system.
+## Interface Walkthrough
+
+This section illustrates the OralOptix prototype interface following the same sequence used during the radiograph analysis workflow.
+
+---
+
+### 1. User Authentication — Login
+
+Users begin by accessing the system through the secure login interface.
+
+<p align="center">
+  <img src="assets/auth-login-page.png" alt="Login Interface" width="85%">
+</p>
+
+---
+
+### 2. User Registration — Sign Up
+
+New users can create an account through the registration page.
+
+<p align="center">
+  <img src="assets/auth-signup-page.png" alt="Signup Interface" width="85%">
+</p>
+
+---
+
+### 3. Radiograph Upload
+
+The analysis workflow begins by uploading the intra-oral radiograph image.
+
+<p align="center">
+  <img src="workflow-step-upload-complete.png" alt="Radiograph Upload Step" width="90%">
+</p>
+
+---
+
+### 4. Patient Selection
+
+Users select the patient record associated with the radiograph.
+
+<p align="center">
+  <img src="assets/workflow-step-patient-selection.png" alt="Patient Selection Step" width="90%">
+</p>
+
+---
+
+### 5. Add New Patient
+
+If the patient does not already exist in the system, a new record can be created.
+
+<p align="center">
+  <img src="assets/ui-new-patient-modal.png" alt="Add New Patient Modal" width="90%">
+</p>
+
+---
+
+### 6. Technical Imaging Settings
+
+Technical parameters related to the radiograph acquisition are entered before analysis.
+
+<p align="center">
+  <img src="assets/workflow-step-technical-settings.png" alt="Technical Settings Step" width="90%">
+</p>
+
+---
+
+### 7. AI Analysis Dashboard
+
+After submitting the information, the system processes the radiograph and displays AI-generated analysis results.
+
+<p align="center">
+  <img src="dash.png" alt="AI Analysis Dashboard" width="90%">
+</p>
+
+---
+
+### 8. Generated Report
+
+Finally, the system generates a structured report summarizing the radiograph quality assessment.
+
+<p align="center">
+  <img src="assets/report-pdf-preview.png" alt="Generated PDF Report" width="90%">
+</p>
+
+---
 
