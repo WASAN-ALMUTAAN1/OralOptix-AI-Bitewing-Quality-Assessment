@@ -7,7 +7,6 @@ Professional GitHub README for Graduation / Research Project
   <img src="assets/looog.png" alt="OralOptix Banner" width="100%" />
 </p>
 
-
 <p align="center">
   <b>Intelligent Assessment of Intra-Oral Radiograph Quality</b><br/>
   AI-assisted quality assessment and reporting workflow for bitewing dental radiographs.
@@ -23,16 +22,16 @@ Professional GitHub README for Graduation / Research Project
 
 ---
 
-# Abstract
+## Abstract
 
 **OralOptix** is an academic artificial intelligence project developed to support the **quality assessment of intra-oral dental radiographs**, particularly **bitewing radiographs**.
 
 The system demonstrates a prototype workflow combining:
 
-- structured clinical-style interface
-- AI-assisted image quality analysis
-- report-oriented output generation
-- patient and imaging parameter documentation
+- structured clinical-style interface  
+- AI-assisted image quality analysis  
+- report-oriented output generation  
+- patient and imaging parameter documentation  
 
 The goal of the project is to explore how **machine learning can assist clinicians in identifying radiograph quality issues**, reducing repeated imaging and improving workflow consistency.
 
@@ -40,7 +39,7 @@ This repository serves as the **official academic documentation and portfolio re
 
 ---
 
-# Clinical Motivation
+## Clinical Motivation
 
 Dental radiographs play a critical role in diagnosis.  
 However, poor-quality images may lead to:
@@ -54,7 +53,7 @@ However, poor-quality images may lead to:
 
 ---
 
-# Important Notice
+## Important Notice
 
 > This repository contains **prototype interfaces, academic materials, and demonstration outputs**.  
 > All patient names, IDs, and report data appearing in screenshots are **demo/test data only** and **not real patient data**.
@@ -63,71 +62,76 @@ This repository is shared for **academic, educational, and portfolio purposes**.
 
 ---
 
-# Project Scope
+## Project Scope
 
 This repository documents the **academic prototype version** of OralOptix.
 
 Included materials:
 
-- Graduation project report
-- Presentation slides and poster
-- Prototype interface screenshots
-- Documentation notes
-- Data governance notes
+- graduation project report  
+- presentation slides and poster  
+- prototype interface screenshots  
+- documentation notes  
+- data governance notes  
 
-## Not Included
+### Not Included
 
 The following materials are intentionally **not included in this public repository**:
 
-- Private training datasets
-- Sensitive clinical data
-- Full internal training pipeline
-- Production deployment environment
+- private training datasets  
+- sensitive clinical data  
+- full internal training pipeline  
+- production deployment environment  
 
 ---
 
-# Target Audience
+## Target Audience
 
-## Academic / Technical Audience
-
-- Medical imaging AI researchers
-- Computer vision and deep learning students
-- Graduation project reviewers
-- Academic supervisors and committees
-
-## Clinical / Domain Audience
-
-- Dental clinicians
-- Dental interns and students
-- Healthcare technology evaluators
+This repository is intended for **medical imaging AI researchers, computer vision students, graduation project reviewers, and clinicians interested in AI-assisted radiograph quality assessment workflows**.
 
 ---
 
-# System Overview
+## Task Definition
+
+The project investigates **automatic quality classification of bitewing dental radiographs** using deep learning models.
+
+The classification task focuses on determining **diagnostic usability and quality characteristics of intra-oral radiographs**, supporting structured feedback within a prototype clinical workflow.
+
+---
+
+## Data Governance
+
+The dataset used in this project is **not publicly included in this repository** due to privacy and academic data-sharing boundaries.
+
+Only **documentation, results, and demonstration outputs** are shared publicly, while raw data and internal training assets remain restricted.
+
+---
+
+## System Overview
 
 OralOptix follows a **workflow-based radiograph review process**.
 
-## Workflow
+### Workflow
 
-1. Upload bitewing radiograph
-2. Select or add patient information
-3. Enter imaging technical parameters
-4. Perform AI-assisted quality analysis
-5. Generate structured report output
+1. Upload bitewing radiograph  
+2. Select or add patient information  
+3. Enter imaging technical parameters  
+4. Perform AI-assisted quality analysis  
+5. Generate structured report output  
 
-## Main Components
+### Main Components
 
-- Authentication interface (prototype)
-- Patient management module
-- Image upload and parameter form
-- AI analysis dashboard
-- Structured report output interface
+- authentication interface (prototype)  
+- patient management module  
+- image upload and parameter form  
+- AI analysis dashboard  
+- structured report output interface  
 
 ---
 
-# Key Features
+## Key Features
 
-## Multi-Step Radiograph Workflow
+### Multi-Step Radiograph Workflow
 
 The interface guides users through a structured analysis process:
 
@@ -137,36 +141,27 @@ The interface guides users through a structured analysis process:
 - automated analysis  
 - report generation  
 
-## Patient Management Interface
+### Patient Management Interface
 
 The prototype includes patient management capabilities:
 
-- viewing patient records
-- searching records
-- adding new patients
-- editing patient data
+- viewing patient records  
+- searching records  
+- adding new patients  
+- editing patient data  
 
-## AI-Assisted Reporting
+### AI-Assisted Reporting
 
 Generated reports summarize:
 
-- patient metadata (demo)
-- radiograph classification
-- imaging parameters
-- AI-generated quality recommendations
-
-## Documentation-Ready Visual Assets
-
-The repository includes screenshots and visual assets suitable for:
-
-- project presentations
-- thesis documentation
-- academic demonstrations
-- portfolio showcase
+- patient metadata (demo)  
+- radiograph classification  
+- imaging parameters  
+- AI-generated quality recommendations  
 
 ---
 
-# Problem and Solution
+## Problem and Solution
 
 <p align="center">
 <img src="assets/problem-solution-diagram.png" width="80%">
@@ -181,27 +176,27 @@ Low-quality images can lead to repeat imaging and unnecessary radiation exposure
 
 OralOptix demonstrates a **prototype AI-assisted workflow** that:
 
-- evaluates radiograph quality
-- classifies diagnostic usability
-- provides structured feedback through a report interface
+- evaluates radiograph quality  
+- classifies diagnostic usability  
+- provides structured feedback through a report interface  
 
 ---
 
-# AI Research Context
+## AI Research Context
 
 The project explores **deep learning approaches for dental radiograph quality classification**.
 
 Research directions include:
 
-- medical imaging AI
-- dental radiograph quality assessment
-- deep learning model comparison
-- workflow support for clinicians
-- structured reporting for image quality
+- medical imaging AI  
+- dental radiograph quality assessment  
+- deep learning model comparison  
+- workflow support for clinicians  
+- structured reporting for image quality  
 
 ---
 
-# Model Performance Summary
+## Model Performance Summary
 
 | Model | Accuracy | Precision | Recall | F1 Score |
 |------|----------:|----------:|-------:|---------:|
@@ -218,10 +213,9 @@ Full details are available in the project report.
 
 ---
 
-# Technical Stack
+## Technical Stack
 
-## AI Development
-
+### AI Development
 - Python  
 - TensorFlow  
 - Keras  
@@ -229,12 +223,10 @@ Full details are available in the project report.
 - Vision Transformer models  
 - Google Colab  
 
-## Backend Prototype
+### Backend Prototype
+- Flask  
 
-- Flask
-
-## Frontend Prototype
-
+### Frontend Prototype
 - PHP  
 - HTML  
 - CSS  
@@ -242,26 +234,16 @@ Full details are available in the project report.
 - MySQL  
 - phpMyAdmin  
 
-## Documentation
-
-- GitHub
-- PDF reports
-- project presentations
-
 ---
 
-# Repository Structure
+## Repository Structure
 
-```bash
+```
 OralOptix-AI-Bitewing-Quality-Assessment
 │
 ├── assets
-│   ├── screenshots
-│   ├── poster
-│   └── visual assets
 │
 ├── demo
-│   └── demo references
 │
 ├── docs
 │   ├── methodology
@@ -270,18 +252,12 @@ OralOptix-AI-Bitewing-Quality-Assessment
 │   └── future work
 │
 ├── paper
-│   └── manuscript materials
 │
 ├── presentation
-│   └── presentation slides and poster
 │
 ├── report
-│   └── final graduation report
 │
 ├── data-governance
-│   ├── privacy notes
-│   ├── dataset notes
-│   └── access restrictions
 │
 ├── README.md
 ├── LICENSE
@@ -290,9 +266,9 @@ OralOptix-AI-Bitewing-Quality-Assessment
 
 ---
 
-# Visual Preview
+## Visual Preview
 
-## Project Poster
+### Project Poster
 
 <p align="center">
 <img src="assets/poster-oraloptix.png" width="70%">
@@ -300,17 +276,12 @@ OralOptix-AI-Bitewing-Quality-Assessment
 
 ---
 
-
 ## Interface Walkthrough
-
-This section illustrates the OralOptix prototype interface following the same sequence used during the radiograph analysis workflow.
-
----
 
 ### 1. User Authentication — Login
 
 <p align="center">
-  <img src="assets/auth-login-page.png" alt="Login Interface" width="85%">
+<img src="assets/auth-login-page.png" width="85%">
 </p>
 
 ---
@@ -318,7 +289,7 @@ This section illustrates the OralOptix prototype interface following the same se
 ### 2. User Registration — Sign Up
 
 <p align="center">
-  <img src="assets/auth-signup-page.png" alt="Signup Interface" width="85%">
+<img src="assets/auth-signup-page.png" width="85%">
 </p>
 
 ---
@@ -328,25 +299,20 @@ This section illustrates the OralOptix prototype interface following the same se
 <table>
 <tr>
 <td width="50%" align="center">
-
-<img src="assets/workflow-step-patient-selection.png" alt="Upload Step" width="100%">
-
+<img src="assets/workflow-step-upload-complete.png" width="100%">
 </td>
-
 <td width="50%" align="center">
-
-<img src="assets/workflow-step-upload-complete.png" alt="Upload Step Alternate" width="100%">
-
+<img src="assets/workflow-step-patient-selection.png" width="100%">
 </td>
 </tr>
 </table>
 
 ---
 
-### 4. Patient Selection
+### 4. Add Patient
 
 <p align="center">
-  <img src="assets/ui-new-patient-modal.png" alt="Add Patient Modal" width="85%">
+<img src="assets/ui-new-patient-modal.png" width="85%">
 </p>
 
 ---
@@ -354,7 +320,7 @@ This section illustrates the OralOptix prototype interface following the same se
 ### 5. Technical Imaging Settings
 
 <p align="center">
-  <img src="assets/workflow-step-technical-settings.png" alt="Technical Settings" width="85%">
+<img src="assets/workflow-step-technical-settings.png" width="85%">
 </p>
 
 ---
@@ -362,7 +328,7 @@ This section illustrates the OralOptix prototype interface following the same se
 ### 6. AI Analysis Dashboard
 
 <p align="center">
-  <img src="assets/dash.png" alt="AI Dashboard" width="85%">
+<img src="assets/dash.png" width="85%">
 </p>
 
 ---
@@ -370,8 +336,30 @@ This section illustrates the OralOptix prototype interface following the same se
 ### 7. Generated Report
 
 <p align="center">
-  <img src="assets/report-pdf-preview.png" alt="Generated Report" width="85%">
+<img src="assets/report-pdf-preview.png" width="85%">
 </p>
 
 ---
 
+## Project Status
+
+### Implemented Components
+
+- [x] Dataset preparation and labeling  
+- [x] Bitewing radiograph quality classification task  
+- [x] Deep learning model experimentation  
+- [x] Comparative evaluation of multiple architectures  
+- [x] Performance analysis using Accuracy, Precision, Recall, and F1-score  
+- [x] Prototype clinical workflow interface  
+- [x] Radiograph upload workflow  
+- [x] Patient management interface (prototype)  
+- [x] Technical imaging parameter input  
+- [x] AI-assisted radiograph quality assessment and report output  
+
+### Future Research Directions
+
+- [ ] Expansion to larger multi-institution radiograph datasets  
+- [ ] Explainable AI visualization techniques  
+- [ ] Integration with clinical radiology systems (e.g., PACS)  
+- [ ] Real-time radiograph quality feedback during acquisition  
+- [ ] Extension to additional intra-oral radiograph types  
