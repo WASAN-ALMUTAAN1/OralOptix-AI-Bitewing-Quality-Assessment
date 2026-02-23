@@ -266,15 +266,6 @@ OralOptix-AI-Bitewing-Quality-Assessment
 
 ---
 
-## Visual Preview
-
-### Project Poster
-
-<p align="center">
-<img src="assets/poster-oraloptix.png" width="70%">
-</p>
-
----
 
 ## Interface Walkthrough
 
