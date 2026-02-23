@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+title: "OralOptix"
+message: "If you use this project, please cite it using the metadata below."
+type: software
+
+authors:
+  - family-names: "Almutaani"
+    given-names: "Wasan Owaidh"
+  - family-names: "Balkhdhar"
+    given-names: "Rafa"
+  - family-names: "Sadiq"
+    given-names: "Esraa"
+
+repository-code: "https://github.com/WASAN-ALMUTAAN1/WASAN-ALMUTAAN1"
+url: "https://github.com/WASAN-ALMUTAAN1/WASAN-ALMUTAAN1"
+
+abstract: >
+  OralOptix is a prototype AI-assisted platform for radiograph quality assessment
+  and reporting workflow demonstration, developed as a graduation project.
+
+keywords:
+  - radiograph quality assessment
+  - AI
+  - medical imaging
+  - OralOptix
+  - prototype
+
+license: "CC-BY-NC-4.0"
+version: "1.0.0"
+date-released: "2026-02-22"
